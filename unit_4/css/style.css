@@ -10,8 +10,9 @@ body {
 h1 {
 	color: white;
 	font-weight: bold;
-	font-size: 250%;
+	font-size: 450%;
 	text-transform: uppercase;
+	text-align: center;
 	font-family: 'Megrim', cursive;
 }
 
@@ -23,6 +24,7 @@ p {
 #slogan {
 	font-family: 'Maven Pro', sans serif;
 	font-style: italic;
+	font-size: 250%;
 	text-align: center;
 }
 
