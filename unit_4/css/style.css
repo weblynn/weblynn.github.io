@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Megrim);
 body {
 	background: url("../images/hyperspace.jpg");
@@ -18,11 +18,11 @@ h1 {
 
 p {
 	color: white;
-	font-family: 'Maven Pro', sans serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 #slogan {
-	font-family: 'Maven Pro', sans serif;
+	font-family: 'Megrim', cursive;
 	font-style: italic;
 	font-size: 250%;
 	text-align: center;
@@ -30,10 +30,10 @@ p {
 
 li {
 	color: white;
-	font-family: 'Maven Pro', sans serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 a {
 	color: pink;
-	font-family: 'Maven Pro', sans serif;
+	font-family: 'Roboto Slab', serif;
 }
