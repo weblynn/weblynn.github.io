@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+body {
+	background: url("../images/hyperspace.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 450%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Megrim', cursive;
+}
+
+header {
+	background-color: [#FFED74];
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: [#E8C66A];
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: [#FFC675];
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: [#FF957E];
+	border: 1 px black solid;
+	padding: 20 px;
+}
+
+div {
+	background-color: [#FFE2B8];
+	border: 1 px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: [#FFE2B8];
+	border: 1 px black solid;
+	padding: 20 px;
+}
+
+p {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#slogan {
+	font-family: 'Megrim', cursive;
+	font-style: italic;
+	font-size: 250%;
+	text-align: center;
+}
+
+#mission {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#new {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#featured {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+#guarantee {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	color: pink;
+	font-family: 'Roboto Slab', serif;
+}
