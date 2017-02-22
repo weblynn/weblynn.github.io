@@ -26,25 +26,25 @@ nav {
 }
 
 aside {
-	background-color: [#FFC675];
+	background-color: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 footer {
-	background-color: [#FF957E];
+	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20 px;
 }
 
 div {
-	background-color: [#FFE2B8];
+	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 section {
-	background-color: [#FFE2B8];
+	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20 px;
 }
