@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 450%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Megrim', cursive;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	font-size: 1.8em;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20 px;
+	clear: both;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 2%;
+	font-size: 1.2em;
+	width: 22%;
+	display: inline-block;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20 px;
+}
+#hero{
+	background: url("../images/hyperspace.jpg");
+	background: url(https://raw.githubusercontent.com/weblynn/weblynn.github.io/master/unit_4/images/hyperspace.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+#slogan {
+	font-family: 'Megrim', cursive;
+	font-style: italic;
+	font-size: 250%;
+	text-align: center;
+}
+
+#mission {
+	border:none;
+	margin:auto;
+	padding:4em 0;
+	width: 35em;
+}
+
+#products {
+	float: left;
+}
+
+a {
+	color: pink;
+	font-family: 'Roboto Slab', serif;
+}
