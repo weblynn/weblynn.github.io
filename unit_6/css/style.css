@@ -30,7 +30,6 @@ nav {
 nav a {
 	text-decoration: none;
 	color: black;
-	margin: 1.8em;
 	display: inline-block;
 }
 
@@ -43,7 +42,7 @@ aside {
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
-	padding: 20 px;
+	padding: 20px;
 	clear: both;
 }
 
@@ -52,16 +51,26 @@ div {
 	border: 1px black solid;
 	padding: 2%;
 	font-size: 1.2em;
-	width: 22%;
-	display: inline-block;
 }
 
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 20 px;
+	padding: 20px;
 }
-#hero{
+
+#products img {
+	width: 25%;
+	float:left;
+}
+
+#plaid div {
+	display: inline-block;
+	width: 45.5%;
+	vertical-align: top;
+}
+
+#hero {
 	background: url("../images/hyperspace.jpg");
 	background: url(https://raw.githubusercontent.com/weblynn/weblynn.github.io/master/unit_4/images/hyperspace.jpg);
 	background-size: cover;
@@ -85,6 +94,15 @@ section {
 #products {
 	float: left;
 }
+
+.clearfix:after {
+	display:block;
+	content: " ";
+	clear:both;
+	visibility: hidden;
+	height:0;
+}
+
 
 a {
 	color: pink;
