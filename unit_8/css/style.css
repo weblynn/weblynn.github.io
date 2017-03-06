@@ -97,7 +97,7 @@ section {
 }
 
 .clearfix:after {
-	display:block;
+	displafy:block;
 	content: " ";
 	clear:both;
 	visibility: hidden;
