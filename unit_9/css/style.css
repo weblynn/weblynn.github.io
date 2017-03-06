@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 450%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Megrim', cursive;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #00AEED;
+	border: 1px black solid;
+	padding: 20px;
+	font-size: 1.8em;
+	float: right;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+}
+
+aside {
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	clear: both;
+}
+
+div {
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	padding: 2%;
+	font-size: 1.2em;
+}
+
+section {
+	background-color: #FFFFFF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#logo {
+	font-weight: bold;
+	font-size: 2.0em;
+}
+
+#products img {
+	width: 25%;
+	float:left;
+}
+
+#platinum div {
+	display: inline-block;
+	width: 45.5%;
+	vertical-align: top;
+}
+
+#hero {
+	background: url("../images/hyperspace.jpg");
+	background: url(https://raw.githubusercontent.com/weblynn/weblynn.github.io/master/unit_4/images/hyperspace.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center center;
+}
+#slogan {
+	font-family: 'Megrim', cursive;
+	font-style: italic;
+	font-size: 250%;
+	text-align: center;
+}
+
+#mission {
+	border:none;
+	margin:auto;
+	padding:4em 0;
+	width: 35em;
+}
+
+#products {
+	float: left;
+}
+
+.clearfix:after {
+	displafy:block;
+	content: " ";
+	clear:both;
+	visibility: hidden;
+	height:0;
+}
+
+
+a {
+	color: pink;
+	font-family: 'Roboto Slab', serif;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+		float: none;
+	}
+	h1 {
+		font-size: 1.4em;
+	}
+	#products {
+		float: none;
+	}
+	#products img {
+		float: none;
+		width: 100%;
+	}
+}
