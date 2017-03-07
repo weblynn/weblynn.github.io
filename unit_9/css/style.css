@@ -69,6 +69,7 @@ section {
 	display: inline-block;
 	background-color: #ECECEC
 	width: 45.5%;
+	float: left;
 	vertical-align: top;
 }
 
