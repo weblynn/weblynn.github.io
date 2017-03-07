@@ -99,6 +99,11 @@ section {
 	float: left;
 }
 
+#installation {
+	float: left;
+	background-color: #ECECEC
+}
+
 .clearfix:after {
 	displafy:block;
 	content: " ";
