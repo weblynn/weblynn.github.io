@@ -59,13 +59,14 @@ section {
 }
 
 #products img {
-	backgrou-color: #CCCCCC;
+	background-color: #CCCCCC;
 	width: 25%;
 	float:left;
 }
 
 #platinum div {
 	display: inline-block;
+	background-color: #ECECEC
 	width: 45.5%;
 	vertical-align: top;
 }
@@ -105,7 +106,7 @@ section {
 }
 
 a {
-	color: pink;
+	color: teal;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -119,7 +120,7 @@ a {
 	#products {
 		float: none;
 	}
-	
+
 	#products img {
 		float: none;
 		width: 100%;
