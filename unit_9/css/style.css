@@ -14,7 +14,7 @@ h1 {
 }
 
 header {
-	background-color: #FFED74;
+	background-color: #EBF5FC;
 	padding: 20px;
 }
 
@@ -104,7 +104,6 @@ section {
 	height:0;
 }
 
-
 a {
 	color: pink;
 	font-family: 'Roboto Slab', serif;
@@ -120,6 +119,7 @@ a {
 	#products {
 		float: none;
 	}
+	
 	#products img {
 		float: none;
 		width: 100%;
