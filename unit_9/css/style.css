@@ -60,6 +60,7 @@ section {
 
 #products img {
 	background-color: #CCCCCC;
+	padding: 2%;
 	width: 25%;
 	float:left;
 }
