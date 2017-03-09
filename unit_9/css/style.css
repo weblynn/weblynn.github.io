@@ -53,9 +53,19 @@ section {
 	padding: 20px;
 }
 
-#logo {
+header img {
+	float:left;
+	border: 3px solid #E30B5D;
+}
+
+nav a:hover {
+	color: orange;
+}
+
+.logo {
 	font-weight: bold;
 	font-size: 2.0em;
+	float:left;
 }
 
 #wrapper img {
@@ -74,10 +84,11 @@ section {
 	width: 45.5%;
 	float: left;
 	vertical-align: top;
+	text-align: center;
 }
 
 #cta {
-	font-color: E30B5D;
+	font-color: #E30B5D;
 	font-weight: bold;
 }
 
@@ -101,20 +112,24 @@ section {
 	margin:auto;
 	padding:4em 0;
 	width: 35em;
+	text-align: center;
 }
 
 #products {
 	float: left;
+	width:100vw;
+	text-align: center;
 }
 
 #installation {
 	float: left;
 	background-color: #ECECEC
 	width: 100%;
+	text-align: center;
 }
 
 .clearfix:after {
-	displafy:block;
+	display:block;
 	content: " ";
 	clear:both;
 	visibility: hidden;
@@ -122,7 +137,7 @@ section {
 }
 
 a {
-	color: E30B5D;
+	color: #E30B5D;
 	font-family: 'Roboto Slab', serif;
 }
 
