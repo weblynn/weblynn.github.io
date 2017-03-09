@@ -127,7 +127,7 @@ h2 {
 }
 
 #installation {
-	float: left;
+	float: none;
 	background-color: #ECECEC
 	width: 100%;
 	text-align: center;
