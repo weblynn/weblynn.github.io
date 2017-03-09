@@ -69,13 +69,18 @@ nav a:hover {
 }
 
 #wrapper img {
-	border: 3px solid #E30B5D;
+	border: 7px solid #E30B5D;
+	padding: 10px;
 }
 
 #products img {
 	padding: 2%;
 	width: 25%;
-	float:left;
+	float:none;
+}
+
+h2 {
+	text-align: center;
 }
 
 #platinum div {
