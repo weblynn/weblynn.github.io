@@ -87,7 +87,7 @@ h2 {
 #platinum div {
 	display: inline-block;
 	background-color: #ECECEC
-	width: 45.5%;
+	width: 100vw;
 	float: none;
 	vertical-align: top;
 	text-align: center;
